@@ -1,25 +1,25 @@
 class PlanetPort < Formula
   desc "Multi-planet ZeroTier client"
   homepage "https://github.com/planet-port/planet-port-desktop"
-  version "0.3.3"
+  version "0.3.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.3/planet-port-aarch64-apple-darwin.tar.xz"
-      sha256 "5b442cb8a6b37aea7758981147d3dd432179b509d09f17dcb0b5731b221c05ba"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.4/planet-port-aarch64-apple-darwin.tar.xz"
+      sha256 "55185322b06f7dcf27bccaecca92d738fcdc41b4e1915481dea5cceda37f74f5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.3/planet-port-x86_64-apple-darwin.tar.xz"
-      sha256 "463dfebd55401bd8ae34012f33b75b06576419672f28af58fd696a2f59bfd6b9"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.4/planet-port-x86_64-apple-darwin.tar.xz"
+      sha256 "8956e95000d326e05e0e46a17852c8720dd92b92003fc7c2e36f499fcfd3c68e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.3/planet-port-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "163e223b819beaab833d424a24865d393bf2cacd20f2a1cb3c051516fa46e429"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.4/planet-port-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d3efcefb72c1a9169baaa7ce63506d39c11932d2432b4f11d43c62110ef52225"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.3/planet-port-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "eaed9a0c6b96602521a20d7b640747e57b58109dbfffed8c18c002c25d5f8e23"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.3.4/planet-port-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "faa1ad8f5c5c7444712631ebf4751497b64e0bb020abdede6c1b330f7c845197"
     end
   end
   license "MIT"
