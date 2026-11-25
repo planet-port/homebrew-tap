@@ -1,25 +1,25 @@
 class PlanetPort < Formula
   desc "Multi-planet ZeroTier client"
   homepage "https://github.com/planet-port/planet-port-desktop"
-  version "0.5.0-beta.1"
+  version "0.5.0-beta.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.1/planet-port-aarch64-apple-darwin.tar.xz"
-      sha256 "5df34bd332493e9e02a8d1864c78ddd5976f9eff8ac1eb4ceac5abebf5ba2492"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.2/planet-port-aarch64-apple-darwin.tar.xz"
+      sha256 "d489f0471f0858ca269784896b4215918c756970637b29c966f2f2eea6412a6a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.1/planet-port-x86_64-apple-darwin.tar.xz"
-      sha256 "2426d04eaab1a395c158ff0e299f304a166324ea6fde089677537cb9c5969ae8"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.2/planet-port-x86_64-apple-darwin.tar.xz"
+      sha256 "aba14c6c125306422c4c89dc65fcd590bba7d23634dc510ee65e9970d4e65657"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.1/planet-port-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2086340ecd1a90e4af0077f2797d7c554972a3779f7c17aee62b2ee9484bc7f9"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.2/planet-port-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "fae239e2d396fc9c6e83e46428697ecc28974dc43f7f1b8361551bdec27df8cd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.1/planet-port-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8a12ee5188322109df8703f34cbd9cd6c1b6a702fc13fdbac556e46b54f7b202"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/v0.5.0-beta.2/planet-port-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8a113634f2bf63c713cb0f8a3615144ca83c826bc63233147decfadb4c62bbb3"
     end
   end
   license "MIT"
