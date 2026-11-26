@@ -7,25 +7,25 @@
 class PlanetPort < Formula
   desc "Multi-planet ZeroTier client (cli + daemon suite)"
   homepage "https://github.com/planet-port/planet-port-desktop"
-  version "0.6.0-beta.1"
+  version "0.6.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0-beta.1/planet-port-x86_64-apple-darwin.tar.xz"
-      sha256 "28fff6fcf850a73c74dadc0aa1a87329f39e2a3c7f0e1cc87d0a0f8372362f1e"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-x86_64-apple-darwin.tar.xz"
+      sha256 "bedd9a82d3360fac16db2864781cb850777cd5c4752bc9e533cf5c9840f29e57"
     else
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0-beta.1/planet-port-aarch64-apple-darwin.tar.xz"
-      sha256 "4760af370efb5aed8f5f8640c367d4d07a90ce74d9144bbd40f6f26b28e142e5"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-aarch64-apple-darwin.tar.xz"
+      sha256 "acb1557fa63783116524ea6ff71679103799ab47f0155de8d0fd86d6b1e23749"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0-beta.1/planet-port-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5b390064d87da7937bc953de9f03a133d31cce7727c64c263af8e2ddc0f11aea"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2deacee417bff38386681e44a7b8e35cf56665c39130be82a22ec2609ea07058"
     else
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0-beta.1/planet-port-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "28ee6787c3b9f29f49b9d0031b1c7be5dbcb5bd30f927116115af18d6deef351"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3e040bd6f12588fb4914eaa93270ab68c41be6a464c2a7c8fbd6ba21def11db8"
     end
   end
 
