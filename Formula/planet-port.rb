@@ -7,25 +7,25 @@
 class PlanetPort < Formula
   desc "Multi-planet ZeroTier client (cli + daemon suite)"
   homepage "https://github.com/planet-port/planet-port-desktop"
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-x86_64-apple-darwin.tar.xz"
-      sha256 "bedd9a82d3360fac16db2864781cb850777cd5c4752bc9e533cf5c9840f29e57"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.7.0/planet-port-x86_64-apple-darwin.tar.xz"
+      sha256 "e1f5975d4a92b4c8f4177b6347cb02cbcb7cdc84f8d892a5a3992c2f38e32f57"
     else
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-aarch64-apple-darwin.tar.xz"
-      sha256 "acb1557fa63783116524ea6ff71679103799ab47f0155de8d0fd86d6b1e23749"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.7.0/planet-port-aarch64-apple-darwin.tar.xz"
+      sha256 "429e76b11a888d6aea19adaf59e8df6faa4be5d67178f91a24c8a4561a0420c1"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2deacee417bff38386681e44a7b8e35cf56665c39130be82a22ec2609ea07058"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.7.0/planet-port-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6e8ed9e2a2aa47786d51a3f0fc38afb5e8a98756d5e96cb8da3fda2b95a41346"
     else
-      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.6.0/planet-port-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3e040bd6f12588fb4914eaa93270ab68c41be6a464c2a7c8fbd6ba21def11db8"
+      url "https://github.com/planet-port/planet-port-desktop/releases/download/planet-port/v0.7.0/planet-port-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "568695bacebd140f63bbdf661078fa47036f45a962187bc668648301c7f94bd2"
     end
   end
 
